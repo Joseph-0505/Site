@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F0E6;
+  font-family: "Lora SemiBold 600", serif;
+}
+
+.header {
+  background: #c0ac9c;
+}
+.header .container .navbar-brand img {
+  width: 180px;
+}
+.header .navbar-nav {
+  font: "Cormorant Garamond bold 700", serif;
+  font-size: 20px;
+  gap: 3rem;
+}
+
+.banner {
+  background-image: url("../imagens/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.banner .banner-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+}
+.banner .banner-content h1 {
+  font-size: 45px;
+  margin-bottom: 1rem;
+}
+.banner .banner-content p {
+  margin-bottom: 1.5rem;
+  font-size: 25px;
+}
+.banner .banner-content .btn-banner {
+  padding: 0.5rem 1.5rem;
+  background-color: #3bdb36;
+  color: white;
+  font-family: "Cormorant Garamond bold 700", serif;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.banner .banner-content .btn-banner:hover {
+  background-color: #1eb51b;
+}
+
+.footer {
+  background: #c0ac9c;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .banner-content {
+    padding: 1.5rem;
+  }
+  .banner-content h1 {
+    font-size: 1.8rem;
+  }
+  .banner-content p {
+    font-size: 1rem;
+  }
+  .banner-content .btn-banner {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .banner-content {
+    padding: 1rem;
+  }
+  .banner-content h1 {
+    font-size: 1.5rem;
+  }
+  .banner-content p {
+    font-size: 0.95rem;
+  }
+  .banner-content .btn-banner {
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
