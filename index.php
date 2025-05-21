@@ -29,7 +29,7 @@
                 <!-- Logo -->
 
                 <a class="navbar-brand" href="home">
-                    <img src="imagens/logo2.png" alt="Viveiro do Taide">
+                    <img src="imagens/logo.png" alt="Viveiro do Taide">
                 </a>
 
                 <!-- Botão Hamburguer (mobile) -->
@@ -50,7 +50,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="produtosDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Produtos
+                                Plantas
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="produtosDropdown">
                                 <li><a class="dropdown-item" href="suculentas">Suculentas</a></li>
@@ -100,7 +100,7 @@
     </main>
 
     <footer class="footer">
-        <p lass="text-center">
+        <p class="text-center">
             Desenvolvido por José Victor da Silva
         </p>
     </footer>

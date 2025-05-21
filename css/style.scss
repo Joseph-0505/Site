@@ -3,6 +3,8 @@ $secondary: #F5F0E6;
 $clear: #3bdb36;
 $font-titulo: "Cormorant Garamond bold 700", serif;
 $font-texto: "Lora SemiBold 600", serif;
+$cor-titulo: #7e6757;
+
 
 * {
     margin: 0;
@@ -35,46 +37,100 @@ body {
     }
 }
 
-.banner {
-    background-image: url('../imagens/banner.png'); // substitua pelo caminho correto
-    background-size: cover;
-    background-position: center;
-    height: 500px; // altura do banner (ou o que preferir)
+
+
+@mixin transition($props...) {
+    transition: $props 0.3s ease;
+}
+
+.carousel {
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    max-width: 1280px;
+    margin: 2rem auto;
+    border-radius: 16px;
+    overflow: hidden;
 
-    .banner-content {
-        background-color: rgba(0, 0, 0, 0.5); // opcional: fundo escuro translúcido
-        color: #fff;
-        padding: 2rem;
-        border-radius: 10px;
-        max-width: 700px;
+    .carousel-inner {
+        border-radius: 16px;
+        max-width: 100%;
+        border-radius: 16px;
+        box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.15);
+    }
 
-        h1 {
-            font-size: 45px;
-            margin-bottom: 1rem;
+    .banner-img {
+        height: 400px;
+        object-fit: cover;
+        width: 100%;
+        display: block;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        max-height: min-content;
+        top: 100px;
+        transform: translateX(-5px);
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 1.5rem 2rem;
+        border-radius: 15px;
+        color: #222;
+        text-align: center;
+        font-family: $font-texto;
+        @include transition(all);
+
+        h5 {
+            font-family: $font-titulo;
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: $cor-titulo;
         }
 
         p {
-            margin-bottom: 1.5rem;
-            font-size: 25px;
+            font-size: 20px;
+            margin-bottom: 1rem;
+            color: #333;
         }
 
-        .btn-banner {
-            padding: 0.5rem 1.5rem;
+        .btn {
+            font-size: 1rem;
             background-color: $clear;
-            color: white;
-            font-family: $font-titulo;
-            font-size: 30px;
             border: none;
-            border-radius: 10px;
-            text-decoration: none;
-        }
+            color: #fff;
+            padding: 0.6rem 1.5rem;
+            border-radius: 30px;
+            font-weight: 600;
+            @include transition(background-color);
 
-        .btn-banner:hover {
-            background-color: #1eb51b;
+            &:hover {
+                background-color: darken($clear, 10%);
+            }
+        }
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        background-size: 20px 20px;
+    }
+
+    .carousel-indicators {
+        button {
+            background-color: #aaa;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 5px;
+            opacity: 0.6;
+            border: none;
+
+            &.active {
+                background-color: $primary;
+                opacity: 1;
+            }
         }
     }
 }
@@ -84,47 +140,38 @@ body {
 
     p {
         color: white;
-        text-align: center;
-        padding: 1rem;
+        padding: 10px;
     }
 }
 
 
-// Responsivo
 @media (max-width: 768px) {
-    .banner-content {
-        padding: 1.5rem;
+    .banner-img {
+        height: 240px;
+    }
 
-        h1 {
-            font-size: 1.8rem;
+    .carousel-caption {
+        padding: 1rem;
+        top: 20px;
+
+        h5 {
+            font-size: 25px !important;
         }
 
         p {
-            font-size: 1rem;
+            font-size: 15px !important;
         }
 
-        .btn-banner {
-            padding: 0.6rem 1.5rem;
-            font-size: 0.9rem;
+        .btn {
+            font-size: 15px !important;
+            padding: 0.5rem 1.2rem;
         }
     }
-}
 
-@media (max-width: 480px) {
-    .banner-content {
-        padding: 1rem;
-
-        h1 {
-            font-size: 1.5rem;
-        }
-
-        p {
-            font-size: 0.95rem;
-        }
-
-        .btn-banner {
-            width: 100%;
-            display: inline-block;
-        }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+        background-size: 16px 16px;
     }
 }

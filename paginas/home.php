@@ -1,49 +1,49 @@
- <section class="banner">
+<!-- Carrossel de Banners -->
+<div class="container mt-5">
+    <div id="carrosselViveiro" class="carousel slide rounded shadow-lg overflow-hidden" data-bs-ride="carousel">
 
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrosselViveiro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrosselViveiro" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carrosselViveiro" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
 
-     <div class="banner-content">
-         <h1>Verde que encanta e transforma</h1>
-         <p>Nossa paixão é trazer para você plantas únicas que transformam qualquer
-             ambiente com charme e facilidade de cuidado. Explore nossa seleção especial e
-             encontre o verde perfeito para seu lar ou escritório. Cultive beleza, estilo e natureza no seu dia a dia!
-         </p>
-         <a href="contato" class="btn-banner">Entre em contato</a>
-     </div>
- </section>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/banner.png" class="d-block w-100 banner-img" alt="Suculentas">
+                <div class="carousel-caption">
+                    <h5>Encante-se com nossas Suculentas</h5>
+                    <p>Beleza e praticidade em plantas perfeitas para qualquer ambiente.</p>
+                    <a href="contato" class="btn btn-primary btn-lg">Entrar em contato</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/banner2.png" class="d-block w-100 banner-img" alt="Cactos">
+                <div class="carousel-caption">
+                    <h5>Conheça nossos Cactos</h5>
+                    <p>Fáceis de cuidar e cheios de personalidade para sua casa.</p>
+                    <a href="contato" class="btn btn-primary btn-lg">Entrar em contato</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/banner4.png" class="d-block w-100 banner-img" alt="Orquídeas">
+                <div class="carousel-caption">
+                    <h5>Orquídeas para encantar</h5>
+                    <p>Elegância natural em cada detalhe para seus ambientes.</p>
+                    <a href="contato" class="btn btn-primary btn-lg">Entrar em contato</a>
+                </div>
+            </div>
+        </div>
 
- <section class="destaques">
-     <h2>Plantas em Destaque</h2>
-     <div class="cards">
-         <div class="card">
-             <img src="imagens/suculenta1.jpg" alt="Suculenta">
-             <div class="descricao">
-                 <h3>Suculenta Jade</h3>
-                 <p>Linda e resistente, perfeita para ambientes internos.</p>
-             </div>
-         </div>
-         <div class="card">
-             <img src="imagens/cacto1.jpg" alt="Cacto">
-             <div class="descricao">
-                 <h3>Cacto Mandala</h3>
-                 <p>Forma exótica e fácil manutenção.</p>
-             </div>
-         </div>
-         <div class="card">
-             <img src="imagens/orquidea1.jpg" alt="Orquídea">
-             <div class="descricao">
-                 <h3>Orquídea Branca</h3>
-                 <p>Elegância natural para decorações refinadas.</p>
-             </div>
-         </div>
-     </div>
- </section>
-
- <section class="carrossel">
-     <h2>Veja mais plantas</h2>
-     <div class="carrossel-container">
-         <img src="imagens/planta1.jpg" alt="Planta 1">
-         <img src="imagens/planta2.jpg" alt="Planta 2">
-         <img src="imagens/planta3.jpg" alt="Planta 3">
-         <img src="imagens/planta4.jpg" alt="Planta 4">
-     </div>
- </section>
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrosselViveiro" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrosselViveiro" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+</div>
