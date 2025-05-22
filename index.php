@@ -71,6 +71,7 @@
 
     <main>
         <?php
+        require 'Dados.php';
 
         if (isset($_GET["param"])) {
             $param = $_GET["param"];
