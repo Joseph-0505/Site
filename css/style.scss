@@ -201,8 +201,8 @@ h2 {
 //-------------Seção Cuidados------------------
 
 .cuidados-simples {
-    margin-bottom: 1rem !important; // Reduz a margem
-    padding-bottom: 0 !important; // Garante que não haja padding extra
+    margin-bottom: 1rem !important;
+    padding-bottom: 0 !important;
 
     .text-title {
         font-family: $font-titulo;
@@ -574,9 +574,11 @@ h2 {
 
 
 @media (max-width: 768px) {
+
     .banner-img {
         height: 240px;
     }
+
 
     .carousel-caption {
         padding: 1rem;
@@ -627,8 +629,8 @@ h2 {
 
     //-------------Seção localização------------
     .location-section {
-        margin-bottom: 800px;
-        margin-top: auto;
+        margin-bottom: 400px !important;
+        margin-top: -300px !important;
         padding: 40px 0 80px 0;
         overflow: hidden;
     }
@@ -688,6 +690,7 @@ h2 {
     }
 
 
+
     .footer-content {
         p {
             font-size: 0.85rem;
@@ -699,4 +702,5 @@ h2 {
             }
         }
     }
+
 }

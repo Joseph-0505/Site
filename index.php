@@ -106,7 +106,7 @@
 
     <footer class="site-footer">
         <div class="footer-content">
-            <p>Desenvolvido por José Victor da Silva</p>
+            <p>&copy; 2025; Desenvolvido por José Victor da Silva | Viveiro do Taide</p>
             <div class="social-icons">
                 <a href="https://wa.me/5544998014519" target="_blank" aria-label="WhatsApp">
                     <i class="fab fa-whatsapp"></i>

@@ -534,8 +534,8 @@ h2 {
   }
 
   .location-section {
-    margin-bottom: 800px;
-    margin-top: auto;
+    margin-bottom: 400px !important;
+    margin-top: -300px !important;
     padding: 40px 0 80px 0;
     overflow: hidden;
   }
