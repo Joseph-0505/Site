@@ -7,7 +7,7 @@
     <title>Viveiro do Taide</title>
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
 
@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lora&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
 
 
 
@@ -28,7 +32,7 @@
             <div class="container">
                 <!-- Logo -->
 
-                <a class="navbar-brand" href="home">
+                <a class="navbar-brand" href="home" data-aos="fade-right">
                     <img src="imagens/logo.png" alt="Viveiro do Taide">
                 </a>
 
@@ -100,10 +104,18 @@
         ?>
     </main>
 
-    <footer class="footer">
-        <p class="text-center">
-            Desenvolvido por José Victor da Silva
-        </p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>Desenvolvido por José Victor da Silva</p>
+            <div class="social-icons">
+                <a href="https://wa.me/5544998014519" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/viveirodotaide/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

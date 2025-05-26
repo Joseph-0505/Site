@@ -171,6 +171,101 @@
     </div>
 </div>
 
+<!-------------------------------Seção Cuidados------------------------------->
+
+<section class="cuidados-simples py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 text-title">🌱 Dicas de cuidados especiais com suas Plantas</h2>
+        <div class="row text-center g-4">
+
+            <div class="col-md-4">
+                <div class="p-3 cuidado-box border suculentas rounded-3">
+                    <h5 class="mb-2 text-title">☀️ Suculentas</h5>
+                    <p class="text-body small">💦 Rega a cada 10 dias.<br>
+                        🌤 Luz indireta.<br>
+                        🪴 Solo bem drenado.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-3 cuidado-box border cactos rounded-3">
+                    <h5 class="mb-2 text-title">🌵 Cactos</h5>
+                    <p class="text-body small">☀️ Sol direto. <br> 🪴 Vaso com drenagem.<br> 💦 Regar apenas quando o solo estiver seco.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-3 cuidado-box border orquideas rounded-3">
+                    <h5 class="mb-2 text-title">🌸 Orquídeas</h5>
+                    <p class="text-body small">🌤 Luz difusa.<br> 💦 Regar 1–2 vezes por semana.<br>🌬 Boa ventilação.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Localização------>
+<section class="location-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Nossa Localização</h2>
+            <p>Venha nos visitar em nosso espaço verde, onde cada planta tem uma história para contar</p>
+        </div>
+
+        <div class="location-content">
+            <div class="location-info">
+                <div class="info-item" onclick="openMap()">
+                    <div class="info-content">
+                        <h4>📍 Endereço</h4>
+                        <p>Rua Principal<br>Vila Rural Alto Alegre, Juranda-PR<br>CEP: 87.355-000</p>
+                    </div>
+                </div>
+
+                <div class="info-item" onclick="callPhone()">
+                    <div class="info-content">
+                        <h4>📞 Telefone</h4>
+                        <p>WhatsApp: (44) 99801-4519</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-content">
+                        <h4>🕒 Horário de Funcionamento</h4>
+                        <p>Segunda a Sexta: 7h às 18h<br>Sábado e Domingo: 7h às 18h</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-container" onclick="openMap()">
+                <div class="map-placeholder">
+                    <div>Mapa Interativo</div>
+                    <p>Clique aqui para abrir no Google Maps</p>
+                </div>
+                <div class="map-overlay">
+                    <h4>🌱 Viveiro do Taide</h4>
+                    <p>Seu destino para plantas saudáveis e jardins exuberantes</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="cta-buttons">
+                <a href="#" class="cta-btn" onclick="openMap()">
+                    <span>🗺️</span>
+                    Ver no Google Maps
+                </a>
+                <a href="#" class="cta-btn" onclick="openWhatsApp()">
+                    <span>💬</span>
+                    Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Java Script------>
+
 <script>
     const buttons = document.querySelectorAll(".filter-btn");
     const cards = document.querySelectorAll(".col-sm-6.col-md-4");
@@ -186,5 +281,49 @@
             buttons.forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
         });
+    });
+
+    function openMap() {
+        // Substitua pelas coordenadas reais do seu estabelecimento
+        const address = encodeURIComponent("Viveiro do Taide, Juranda-PR");
+        window.open(`https://maps.google.com/maps?q=${address}`, '_blank');
+    }
+
+    function callPhone() {
+        window.location.href = 'tel:+554499801-4519';
+    }
+
+    function openWhatsApp() {
+        const message = encodeURIComponent("Olá! Gostaria de saber que tipo de plantas vocês possuem.");
+        window.open(`https://wa.me/5544998014519?text=${message}`, '_blank');
+    }
+
+    // Animação de entrada dos elementos
+    function observeElements() {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        document.querySelectorAll('.location-info, .map-container, .cta-section').forEach(el => {
+            observer.observe(el);
+        });
+    }
+
+    // Inicializar quando a página carregar
+    document.addEventListener('DOMContentLoaded', observeElements);
+
+    // Efeito parallax suave no scroll
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const section = document.querySelector('.location-section');
+        if (section) {
+            section.style.transform = `translateY(${scrolled * 0.1}px)`;
+        }
     });
 </script>
