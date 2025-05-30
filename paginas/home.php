@@ -181,7 +181,7 @@
             <div class="col-md-4">
                 <div class="p-3 cuidado-box border suculentas rounded-3">
                     <h5 class="mb-2 text-title">☀️ Suculentas</h5>
-                    <p class="text-body small">💦 Rega a cada 10 dias.<br>
+                    <p class="text-body small">💦 Regar 2 vezes por dia.<br>
                         🌤 Luz indireta.<br>
                         🪴 Solo bem drenado.</p>
                 </div>
