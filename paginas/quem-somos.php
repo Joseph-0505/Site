@@ -3,10 +3,13 @@
         --primary: #c0ac9c;
         --secondary: #F5F0E6;
         --clear: #3bdb36;
-        --font-titulo: 'Cormorant Garamond', serif;
+        --font-titulo: 'Cormorant Garamond 600', serif;
         --font-texto: 'Lora', serif;
         --cor-titulo: #7e6757;
     }
+
+    /* Importar fontes do Google */
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Lora:wght@600&display=swap');
 
     .quem-somos {
         padding: 100px 0;
@@ -452,7 +455,7 @@
             <div class="quem-somos__header">
                 <h2 class="quem-somos__title">Conheça o Viveiro do Taide</h2>
                 <p class="quem-somos__subtitle">
-                    Desde 2018, temos o orgulho de oferecer uma ampla variedade de plantas diretamente para a sua casa. Localizada em Juranda-PR, nossa empresa se dedica a proporcionar um atendimento de qualidade e uma experiência única de encontrar sua planta.
+                    Desde 2018, temos o orgulho de oferecer uma ampla variedade de plantas diretamente para a sua casa. Localizada em Juranda-PR, nosso viveiro se dedica a proporcionar um atendimento de qualidade e uma experiência única de encontrar sua planta especial.
                 </p>
             </div>
 
