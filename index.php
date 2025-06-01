@@ -52,14 +52,14 @@
                             <a class="nav-link" href="quem-somos">Quem Somos</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="produtosDropdown" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" id="produtosDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Plantas
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="produtosDropdown">
-                                <li><a class="dropdown-item" href="suculentas">Suculentas</a></li>
-                                <li><a class="dropdown-item" href="cactos">Cactos</a></li>
-                                <li><a class="dropdown-item" href="orquideas">Orquídeas</a></li>
+                                <li><a class="dropdown-item" href="index.php?param=plantas/suculentas">Suculentas</a></li>
+                                <li><a class="dropdown-item" href="index.php?param=plantas/cactos">Cactos</a></li>
+                                <li><a class="dropdown-item" href="index.php?param=plantas/orquideas">Orquídeas</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -77,24 +77,17 @@
         <?php
         require 'Dados.php';
 
-        if (isset($_GET["param"])) {
-            $param = $_GET["param"];
-
-            //separar o parameto por /
-
-            $p = explode("/", $param);
-        }
+        $param = $_GET["param"] ?? "home";
+        $p = explode("/", $param);
 
         $page = $p[0] ?? "home";
-        $produtos = $p[1] ?? NULL;
+        $plantas = $p[1] ?? null;
 
-        if ($page == $produtos) {
-            $paginas = "produtos/{$produtos}.php";
+        if ($page === "plantas" && $plantas !== null) {
+            $paginas = "plantas/{$plantas}.php";
         } else {
             $paginas = "paginas/{$page}.php";
         }
-
-        //verificar se a pagina existe
 
         if (file_exists($paginas)) {
             include $paginas;
@@ -102,6 +95,7 @@
             include "paginas/erro.php";
         }
         ?>
+
     </main>
 
     <footer class="site-footer">
