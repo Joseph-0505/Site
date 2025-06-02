@@ -18,11 +18,6 @@ $suculentas = [
             'water' => 'Pouca',
             'temp' => '15-25°C'
         ],
-        'tips' => [
-            'Regue apenas quando o substrato estiver seco',
-            'Evite molhar as folhas',
-            'Propaga facilmente por folhas'
-        ]
     ],
     [
         'id' => 2,
@@ -116,47 +111,47 @@ $suculentas = [
     ],
     [
         'id' => 8,
-        'name' => 'Echeveria Black Prince',
-        'scientific' => 'Echeveria \'Black Prince\'',
+        'name' => 'Pata de urso',
+        'scientific' => 'Cotyledon tomentosa Harv.',
         'price' => 38.90,
         'stock' => 4,
         'image' => 'imagens/suculenta13.png',
         'whatsapp' => '5544998014519',
-        'description' => 'Echeveria de cor escura quase preta. Muito elegante e rara.',
+        'description' => 'Suculenta encantadora com folhas peludas e arredondadas, que terminam em pequenas pontas que lembram garras de urso.',
         'care' => [
-            'light' => 'Sol pleno',
-            'water' => 'Pouca',
+            'light' => 'Meia-sombra',
+            'water' => 'Moderada',
             'temp' => '15-26°C'
         ],
     ],
     [
         'id' => 9,
-        'name' => 'Kalanchoe Tomentosa',
-        'scientific' => 'Kalanchoe tomentosa',
+        'name' => 'Coração Emaranhado',
+        'scientific' => 'Ceropegia woodii Schltr.',
         'price' => 22.90,
-        'stock' => 9,
-        'image' => 'images/kalanchoe-tomentosa.jpg',
+        'stock' => 12,
+        'image' => 'imagens/suculenta14.png',
         'whatsapp' => '5544998014519',
-        'description' => 'Conhecida como "orelha de gato" pelas folhas macias e aveludadas.',
+        'description' => 'suculenta pendente muito ornamental, com folhas pequenas em forma de coração, verde-escuras com manchas prateadas e verso arroxeado.',
         'care' => [
-            'light' => 'Sol pleno',
-            'water' => 'Pouca',
-            'temp' => '18-26°C'
+            'light' => 'Meia-sombra',
+            'water' => 'Moderada',
+            'temp' => '18-24°C'
         ],
     ],
     [
         'id' => 10,
-        'name' => 'Aeonium Arboreum',
-        'scientific' => 'Aeonium arboreum',
+        'name' => 'Musgo-tapete',
+        'scientific' => 'Phedimus spurius',
         'price' => 29.90,
         'stock' => 6,
-        'image' => 'images/aeonium-arboreum.jpg',
+        'image' => 'imagens/suculenta15.png',
         'whatsapp' => '5544998014519',
-        'description' => 'Suculenta arbustiva com rosetas no topo dos ramos. Muito decorativa.',
+        'description' => 'Suculenta possui folhas ovais, dentadas, de cor verde vibrante a avermelhada, que se intensificam com o sol.',
         'care' => [
-            'light' => 'Meia-sombra',
+            'light' => 'Sol pleno',
             'water' => 'Moderada',
-            'temp' => '16-24°C'
+            'temp' => '15-25°C'
         ],
     ]
 ];
