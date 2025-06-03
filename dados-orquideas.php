@@ -3,47 +3,47 @@
     $orquideas = [
         [
             'id' => 1,
-            'name' => 'Cacto pimentinha',
-            'scientific' => 'Mammillaria spinosissima',
-            'description' => 'cacto cilíndrico e espinhoso, que formam um padrão decorativo ao redor do caule.',
+            'name' => 'Orquídea-Phalaenopsis',
+            'scientific' => 'Phalaenopsis × singuliflora J.J.Sm.',
+            'description' => 'Suas flores são perfumadas, delicadas e exibem tons variados de lilás, rosa e branco, muitas vezes com padrões marcantes herdados de seus pais. ',
             'price' => 35.00,
             'whatsapp' => '5544998014519',
-            'image' => 'imagens/cacto4.png',
+            'image' => 'imagens/orquidea1.png',
             'stock' => 6,
             'care' => [
-                'light' => 'Sol pleno',
-                'water' => 'Pouca',
-                'temp' => '20-30°C'
+                'light' => 'Meia-sombra',
+                'water' => 'Moderada',
+                'temp' => '18-28°C'
             ],
 
         ],
         [
             'id' => 2,
-            'name' => 'Dedal',
-            'scientific' => 'Mammillaria vetula Mart.',
-            'description' => 'Cacto que produz delicadas flores rosadas ou esbranquiçadas em forma de anel ao redor do topo do caule.',
+            'name' => 'Orquídea-Phalaenopsis',
+            'scientific' => 'Phalaenopsis × singuliflora J.J.Sm.',
+            'description' => 'As hastes florais podem se ramificar ou até florescer novamente se não forem cortadas após a primeira floração.',
             'price' => 35.00,
             'whatsapp' => '5544998014519',
-            'image' => 'imagens/cacto5.png',
+            'image' => 'imagens/orquidea4.png',
             'stock' => 12,
             'care' => [
-                'light' => 'Sol pleno',
-                'water' => 'Pouca',
+                'light' => 'Meia-sombra',
+                'water' => 'Moderada',
                 'temp' => '18-28°C'
             ],
 
         ],
         [
             'id' => 3,
-            'name' => 'Cacto amendoin',
-            'scientific' => 'Chamaecereus silvestrii',
-            'description' => 'Cacto pequeno e rasteiro com caules cilíndricos, verdes e segmentados, que lembram vagens ou dedos.',
+            'name' => 'Cattleya rosa',
+            'scientific' => 'Cattleya trianae Linden',
+            'description' => 'Com pétalas e sépalas em tons de rosa a lilás claro, geralmente com um labelo mais escuro e intenso, frequentemente com tons de amarelo ou dourado no centro..',
             'price' => 35.00,
             'whatsapp' => '5544998014519',
-            'image' => 'imagens/cacto6.png',
+            'image' => 'imagens/orquidea5.png',
             'stock' => 8,
             'care' => [
-                'light' => 'Sol pleno',
+                'light' => 'Luz intensa',
                 'water' => 'Moderada',
                 'temp' => '18-28°C'
             ],
@@ -51,16 +51,16 @@
         ],
         [
             'id' => 4,
-            'name' => 'Cacto Ouriço',
-            'scientific' => 'Echinocereus coccineus Engelm.',
-            'description' => 'O grande destaque são suas flores escarlates ou vermelho-vivas, em forma de funil, que surgem na primavera e atraem polinizadores como beija-flores.',
+            'name' => 'Olho-de-boneca ',
+            'scientific' => 'Dendrobium bigibbum Lindl.',
+            'description' => 'Pode produzir várias flores em uma única haste, geralmente em racemos curvos ou eretos.',
             'price' => 35.00,
             'whatsapp' => '5544998014519',
-            'image' => 'imagens/cacto7.png',
+            'image' => 'imagens/orquidea6.png',
             'stock' => 8,
             'care' => [
-                'light' => 'Sol pleno',
-                'water' => 'Pouca',
+                'light' => 'Sol pleno filtrado',
+                'water' => 'Moderada',
                 'temp' => '20-30°C'
             ],
 
