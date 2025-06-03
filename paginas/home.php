@@ -12,7 +12,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="imagens/banner.png" class="d-block w-100 banner-img" alt="Suculentas">
-                <div class="carousel-caption">
+                <div class="carousel-caption" data-aos="zoom-in" data-aos-duration="1800">
                     <h5>Encante-se com nossas Suculentas</h5>
                     <p>Beleza e praticidade em plantas perfeitas para qualquer ambiente.</p>
                     <a href="contato" class="btn btn-primary btn-lg">Entrar em contato</a>
@@ -179,7 +179,8 @@
         <div class="row text-center g-4">
 
             <div class="col-md-4">
-                <div class="p-3 cuidado-box border suculentas rounded-3">
+                <div class="p-3 cuidado-box border suculentas rounded-3" data-aos="fade-right"
+                    data-aos-easing="ease-in-sine" data-aos-duration="600">
                     <h5 class="mb-2 text-title">☀️ Suculentas</h5>
                     <p class="text-body small">💦 Regar 2 vezes por dia.<br>
                         🌤 Luz indireta.<br>
@@ -188,14 +189,16 @@
             </div>
 
             <div class="col-md-4">
-                <div class="p-3 cuidado-box border cactos rounded-3">
+                <div class="p-3 cuidado-box border cactos rounded-3" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <h5 class="mb-2 text-title">🌵 Cactos</h5>
                     <p class="text-body small">☀️ Sol direto. <br> 🪴 Vaso com drenagem.<br> 💦 Regar apenas quando o solo estiver seco.</p>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="p-3 cuidado-box border orquideas rounded-3">
+                <div class="p-3 cuidado-box border orquideas rounded-3" data-aos="fade-left"
+                    data-aos-easing="ease-in-sine" data-aos-duration="600">
                     <h5 class="mb-2 text-title">🌸 Orquídeas</h5>
                     <p class="text-body small">🌤 Luz difusa.<br> 💦 Regar 1–2 vezes por semana.<br>🌬 Boa ventilação.</p>
                 </div>
@@ -215,21 +218,21 @@
 
         <div class="location-content">
             <div class="location-info">
-                <div class="info-item" onclick="openMap()">
+                <div class="info-item" data-aos="fade-up" data-aos-duration="1100" onclick="openMap()">
                     <div class="info-content">
                         <h4>📍 Endereço</h4>
                         <p>Rua Principal<br>Vila Rural Alto Alegre, Juranda-PR<br>CEP: 87.355-000</p>
                     </div>
                 </div>
 
-                <div class="info-item" onclick="callPhone()">
+                <div class="info-item" data-aos="fade-up" data-aos-duration="1000" onclick="callPhone()">
                     <div class="info-content">
                         <h4>📞 Telefone</h4>
                         <p>WhatsApp: (44) 99801-4519</p>
                     </div>
                 </div>
 
-                <div class="info-item">
+                <div class="info-item" data-aos="fade-up" data-aos-duration="950">
                     <div class="info-content">
                         <h4>🕒 Horário de Funcionamento</h4>
                         <p>Segunda a Sexta: 7h às 18h<br>Sábado e Domingo: 7h às 18h</p>

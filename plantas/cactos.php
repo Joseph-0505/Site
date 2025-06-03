@@ -4,13 +4,13 @@ require_once 'dados-cactos.php';
 ?>
 <style>
     :root {
-        --primary: #8fbc8f;
-        --secondary: #f0f8f0;
-        --clear: #228b22;
-        --cor-titulo: #2d5a2d;
-        --text-light: #5d7a5d;
+        --primary: #c0ac9c;
+        --secondary: #F5F0E6;
+        --clear: #3bdb36;
+        --cor-titulo: #7e6757;
+        --text-light: #8b7a6b;
         --white: #ffffff;
-        --shadow: rgba(143, 188, 143, 0.2);
+        --shadow: rgba(192, 172, 156, 0.2);
         --border-radius: 12px;
         --transition: all 0.3s ease;
     }
