@@ -459,7 +459,7 @@
                 </p>
             </div>
 
-            <div class="quem-somos__highlight-area">
+            <div class="quem-somos__highlight-area" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="quem-somos__highlight">
                     <p>"Cultivar um jardim é acreditar no amanhã."</p>
                     <p class="author">– Audrey Hepburn</p>
@@ -467,15 +467,21 @@
             </div>
 
             <div class="quem-somos__content">
-                <div class="quem-somos__text-block">
+                <div class="quem-somos__text-block" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                     <p>Nosso compromisso é com a satisfação do cliente e a saúde das plantas. Por isso, garantimos que todas as nossas plantas são cultivadas com o máximo cuidado e atenção, assegurando que você receba exemplares vibrantes e prontos para embelezar seu espaço. Seja para decorar sua casa, escritório ou jardim, temos opções para todos os gostos e necessidades.</p>
                 </div>
 
-                <div class="quem-somos__text-block">
+                <div class="quem-somos__text-block" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="900">
                     <p>Seja para decorar sua casa, escritório ou jardim, temos opções para todos os gostos e necessidades. Explore nossa seleção online e descubra a planta perfeita para você.</p>
                 </div>
 
-                <div class="quem-somos__text-block">
+                <div class="quem-somos__text-block" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="700">
                     <p>Estamos aqui para ajudar com qualquer dúvida e garantir que sua experiência de compra seja a melhor possível. Nossa equipe está sempre pronta para orientar você na escolha ideal.</p>
                 </div>
             </div>

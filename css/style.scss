@@ -15,6 +15,7 @@ $cor-titulo: #7e6757;
 body {
     background: $secondary !important;
     font-family: $font-texto;
+    padding-top: 100px;
 }
 
 h2 {
@@ -23,11 +24,19 @@ h2 {
 
 //--------------Cabeçalho---------------------------------
 .header {
-    background: $primary;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba($primary, 0.9);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
 
     .container {
         .navbar-brand {
-
             & img {
                 width: 180px;
             }
@@ -38,8 +47,14 @@ h2 {
         font-family: $font-titulo;
         font-size: 20px;
         gap: 3rem;
-
     }
+
+    // Variação mais transparente (opcional)
+    &.transparent {
+        background: rgba($primary, 0.5); // 50% de opacidade quando transparente
+    }
+
+
 }
 
 //----------------------Carrosel de Banners-------------------------
