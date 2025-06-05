@@ -45,18 +45,18 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="home">
+                            <a class="nav-link" href="home" data-aos="fade-left" data-aos-duration="1000">
                                 <i class="fas fa-home me-2"></i>Home
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="quem-somos">
+                            <a class="nav-link" href="quem-somos" data-aos="fade-left" data-aos-duration="1400">
                                 <i class="fas fa-users me-2"></i>Quem Somos
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="produtosDropdown" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                                aria-expanded="false" data-aos="fade-left" data-aos-duration="1600">
                                 <i class="fas fa-seedling me-2"></i>Plantas
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="produtosDropdown">
@@ -72,7 +72,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato">
+                            <a class="nav-link" href="contato" data-aos="fade-left" data-aos-duration="1800">
                                 <i class="fas fa-envelope me-2"></i>Contato
                             </a>
                         </li>
@@ -81,7 +81,6 @@
             </div>
         </nav>
     </header>
-
 
 
 
@@ -131,7 +130,17 @@
     <script>
         AOS.init();
     </script>
-
+    <script>
+        // Efeito de transparência no header durante o scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 
 </html>
