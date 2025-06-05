@@ -28,10 +28,9 @@
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg  py-2">
+        <nav class="navbar navbar-expand-lg py-2">
             <div class="container">
                 <!-- Logo -->
-
                 <a class="navbar-brand" href="home" data-aos="fade-right">
                     <img src="imagens/logo.png" alt="Viveiro do Taide">
                 </a>
@@ -46,30 +45,44 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="home">Home</a>
+                            <a class="nav-link" href="home">
+                                <i class="fas fa-home me-2"></i>Home
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="quem-somos">Quem Somos</a>
+                            <a class="nav-link" href="quem-somos">
+                                <i class="fas fa-users me-2"></i>Quem Somos
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="produtosDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Plantas
+                                <i class="fas fa-seedling me-2"></i>Plantas
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="produtosDropdown">
-                                <li><a class="dropdown-item" href="index.php?param=plantas/suculentas">Suculentas</a></li>
-                                <li><a class="dropdown-item" href="index.php?param=plantas/cactos">Cactos</a></li>
-                                <li><a class="dropdown-item" href="index.php?param=plantas/orquideas">Orquídeas</a></li>
+                                <li><a class="dropdown-item" href="index.php?param=plantas/suculentas">
+                                        <i class="fas fa-leaf me-2"></i>Suculentas
+                                    </a></li>
+                                <li><a class="dropdown-item" href="index.php?param=plantas/cactos">
+                                        <i class="fas fa-spa me-2"></i>Cactos
+                                    </a></li>
+                                <li><a class="dropdown-item" href="index.php?param=plantas/orquideas">
+                                        <i class="fas fa-flower me-2"></i>Orquídeas
+                                    </a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato">Contato</a>
+                            <a class="nav-link" href="contato">
+                                <i class="fas fa-envelope me-2"></i>Contato
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+
 
 
 
@@ -118,6 +131,7 @@
     <script>
         AOS.init();
     </script>
+
 </body>
 
 </html>
