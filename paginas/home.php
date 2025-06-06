@@ -218,21 +218,21 @@
 
         <div class="location-content">
             <div class="location-info">
-                <div class="info-item" data-aos="fade-up" data-aos-duration="1100" onclick="openMap()">
+                <div class="info-item" onclick="openMap()">
                     <div class="info-content">
                         <h4>📍 Endereço</h4>
                         <p>Rua Principal<br>Vila Rural Alto Alegre, Juranda-PR<br>CEP: 87.355-000</p>
                     </div>
                 </div>
 
-                <div class="info-item" data-aos="fade-up" data-aos-duration="1000" onclick="callPhone()">
+                <div class="info-item" onclick="callPhone()">
                     <div class="info-content">
                         <h4>📞 Telefone</h4>
                         <p>WhatsApp: (44) 99801-4519</p>
                     </div>
                 </div>
 
-                <div class="info-item" data-aos="fade-up" data-aos-duration="950">
+                <div class="info-item">
                     <div class="info-content">
                         <h4>🕒 Horário de Funcionamento</h4>
                         <p>Segunda a Sexta: 7h às 18h<br>Sábado e Domingo: 7h às 18h</p>
@@ -240,27 +240,26 @@
                 </div>
             </div>
 
-            <div class="map-container" onclick="openMap()">
-                <div class="map-placeholder">
-                    <div>Mapa Interativo</div>
-                    <p>Clique aqui para abrir no Google Maps</p>
-                </div>
-                <div class="map-overlay">
-                    <h4>🌱 Viveiro do Taide</h4>
-                    <p>Seu destino para plantas saudáveis e jardins exuberantes</p>
-                </div>
+            <div class="map-container">
+                <iframe
+                    id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.123456789!2d-52.123456!3d-24.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sJuranda%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
 
         <div class="cta-section">
             <div class="cta-buttons">
-                <a href="#" class="cta-btn" onclick="openMap()">
-                    <span>🗺️</span>
-                    Ver no Google Maps
-                </a>
-                <a href="#" class="cta-btn" onclick="openWhatsApp()">
+                <a href="#" class="cta-btn-whatsapp" onclick="openWhatsApp()">
                     <span>💬</span>
                     Falar no WhatsApp
+                </a>
+                <a href="#" class="cta-btn-maps" onclick="openMap()">
+                    <span>🗺️</span>
+                    Ver no Google Maps
                 </a>
             </div>
         </div>
@@ -320,13 +319,4 @@
 
     // Inicializar quando a página carregar
     document.addEventListener('DOMContentLoaded', observeElements);
-
-    // Efeito parallax suave no scroll
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const section = document.querySelector('.location-section');
-        if (section) {
-            section.style.transform = `translateY(${scrolled * 0.1}px)`;
-        }
-    });
 </script>
