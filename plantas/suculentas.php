@@ -104,6 +104,7 @@ require_once 'dados-suculentas.php'; // Substitua 'paste.php' pelo nome do seu a
 
     .product-info {
         padding: 1.5rem;
+
     }
 
     .product-name {

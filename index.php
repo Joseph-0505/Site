@@ -54,6 +54,7 @@
                                 <i class="fas fa-users me-2"></i>Quem Somos
                             </a>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="produtosDropdown" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false" data-aos="fade-left" data-aos-duration="1600">
@@ -67,7 +68,7 @@
                                         <i class="fas fa-spa me-2"></i>Cactos
                                     </a></li>
                                 <li><a class="dropdown-item" href="index.php?param=plantas/orquideas">
-                                        <i class="fas fa-flower me-2"></i>Orquídeas
+                                        <i class="fas fa-seedling  me-2"></i>Orquídeas
                                     </a></li>
                             </ul>
                         </li>
