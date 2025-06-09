@@ -113,14 +113,56 @@
 
     <footer class="site-footer">
         <div class="footer-content">
-            <p>&copy; 2025; Desenvolvido por José Victor da Silva | Viveiro do Taide</p>
-            <div class="social-icons">
-                <a href="https://wa.me/5544998014519" target="_blank" aria-label="WhatsApp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="https://www.instagram.com/viveirodotaide/" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
+            <div class="footer-main">
+                <div class="footer-section">
+                    <h3><i class="fas fa-seedling"></i>Viveiro do Taide</h3>
+                    <p>Especializado em mudas de qualidade, plantas ornamentais e paisagismo. Transformamos espaços em jardins dos sonhos com dedicação e expertise.</p>
+                    <div class="social-icons">
+                        <a href="https://wa.me/5544998014519" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/viveirodotaide/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3><i class="fas fa-map-marker-alt"></i>Localização</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Campo Mourão, Paraná<br>CEP: 87300-000</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-road"></i>
+                            <span>Rodovia BR-272, Km 15<br>Zona Rural</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3><i class="fas fa-phone"></i>Contato</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/5544998014519">(44) 99801-4519</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contato@viveirodotaide.com.br">contato@viveirodotaide.com.br</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Seg a Sex: 7h às 17h<br>Sáb: 7h às 12h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Viveiro do Taide - Todos os direitos reservados</p>
+                <p class="developer">Desenvolvido por José Victor da Silva</p>
             </div>
         </div>
     </footer>
