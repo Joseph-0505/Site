@@ -128,7 +128,7 @@ h2 {
 .carousel .carousel-caption {
   position: absolute;
   max-height: min-content;
-  top: 100px;
+  top: 170px;
   transform: translateX(-5px);
   background-color: rgba(255, 255, 255, 0.8);
   padding: 1.5rem 2rem;

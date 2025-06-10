@@ -467,7 +467,7 @@ require_once 'dados-suculentas.php'; // Substitua 'paste.php' pelo nome do seu a
 <section class="products-section">
     <div class="container">
         <div class="section-title">
-            <h2><i class="fas fa-seedling"></i> Nossas Suculentas</h2>
+            <h2><i class="fas fa-leaf me-2"></i> Nossas Suculentas</h2>
             <p>Plantas especiais cultivadas com carinho para o clima do Paraná</p>
         </div>
         <div class="products-grid" id="productsGrid">

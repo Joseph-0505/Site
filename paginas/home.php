@@ -14,7 +14,7 @@
                 <img src="imagens/banner.png" class="d-block w-100 banner-img" alt="Suculentas">
                 <div class="carousel-caption" data-aos="zoom-in" data-aos-duration="1800">
                     <h5>Encante-se com nossas Suculentas</h5>
-                    <p>Beleza e praticidade em plantas perfeitas para qualquer ambiente.</p>
+                    <p>Beleza e praticidade em plantas para todo ambiente.</p>
                     <a href="contato" class="btn btn-primary btn-lg">Entrar em contato</a>
                 </div>
             </div>
@@ -179,7 +179,7 @@
         <div class="row text-center g-4">
 
             <div class="col-md-4">
-                <div class="p-3 cuidado-box border suculentas rounded-3" data-aos="fade-right"
+                <div class="p-3 cuidado-box border suculentas rounded-3" data-aos="fade-up"
                     data-aos-easing="ease-in-sine" data-aos-duration="600">
                     <h5 class="mb-2 text-title">☀️ Suculentas</h5>
                     <p class="text-body small">💦 Regar 2 vezes por dia.<br>
@@ -189,16 +189,16 @@
             </div>
 
             <div class="col-md-4">
-                <div class="p-3 cuidado-box border cactos rounded-3" data-aos="zoom-in"
-                    data-aos-duration="1000">
+                <div class="p-3 cuidado-box border cactos rounded-3" data-aos="fade-up"
+                    data-aos-easing="ease-in-sine" data-aos-duration="800">
                     <h5 class="mb-2 text-title">🌵 Cactos</h5>
                     <p class="text-body small">☀️ Sol direto. <br> 🪴 Vaso com drenagem.<br> 💦 Regar apenas quando o solo estiver seco.</p>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="p-3 cuidado-box border orquideas rounded-3" data-aos="fade-left"
-                    data-aos-easing="ease-in-sine" data-aos-duration="600">
+                <div class="p-3 cuidado-box border orquideas rounded-3" data-aos="fade-up"
+                    data-aos-easing="ease-in-sine" data-aos-duration="1000">
                     <h5 class="mb-2 text-title">🌸 Orquídeas</h5>
                     <p class="text-body small">🌤 Luz difusa.<br> 💦 Regar 1–2 vezes por semana.<br>🌬 Boa ventilação.</p>
                 </div>
@@ -243,10 +243,9 @@
             <div class="map-container">
                 <iframe
                     id="map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.123456789!2d-52.123456!3d-24.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sJuranda%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.3321087091485!2d-52.84429932464253!3d-24.43926037820661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f27182e5cd1b79%3A0xa2aa9ea69f08edd9!2sViveiro%20de%20suculentas%20do%20taide!5e0!3m2!1spt-BR!2sbr!4v1749515420275!5m2!1spt-BR!2sbr"></iframe>
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
         </div>

@@ -466,7 +466,7 @@ require_once 'dados-orquideas.php';
 <section class="products-section">
     <div class="container">
         <div class="section-title">
-            <h2>🌸 Nossas Orquídeas</h2>
+            <h2><i class="fas fa-seedling me-2"></i> Nossas Orquídeas</h2>
             <p>Flores exóticas e elegantes, cultivadas especialmente para o clima paranaense</p>
         </div>
         <div class="products-grid" id="productsGrid">

@@ -132,11 +132,11 @@
                     <ul class="contact-info">
                         <li>
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Campo Mourão, Paraná<br>CEP: 87300-000</span>
+                            <span>Juranda, Paraná<br>CEP: 87355-000</span>
                         </li>
                         <li>
                             <i class="fas fa-road"></i>
-                            <span>Rodovia BR-272, Km 15<br>Zona Rural</span>
+                            <span>Rua Principal,<br>Vila Rural Alto Alegre</span>
                         </li>
                     </ul>
                 </div>
