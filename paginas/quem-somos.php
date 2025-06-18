@@ -291,11 +291,11 @@
       <div class="container">
           <h2 class="section-title">Conheça o Viveiro do Taide</h2>
 
-          <div class="story-grid">
+          <div class="story-grid" data-aos="fade-right" data-aos-duration="1500">
               <div class="story-text">
                   <h3>Nossa Paixão</h3>
-                  <p>Somos uma família apaixonada pela natureza e pelo cultivo de plantas desde 2018. Nossa jornada começou com um pequeno jardim e cresceu para se tornar um viveiro especializado em suculentas, cactos e paisagismo sustentável.</p>
-                  <p>Cada planta que cultivamos carrega nosso amor e dedicação, transformando espaços comuns em verdadeiros oásis de tranquilidade e beleza natural.</p>
+                  <p>"Somos uma família apaixonada pela natureza e pelo cultivo de plantas desde 2018. Nossa jornada começou com um pequeno jardim e cresceu para se tornar um viveiro especializado em suculentas, cactos e orquídeas."</p>
+                  <p>"Cada planta que cultivamos carrega nosso amor e dedicação, transformando espaços comuns em verdadeiros espaços de tranquilidade e beleza natural." - <strong><i>Altair da Silva Rocha, Proprietário do Viveiro do Taide.</i></strong></p>
               </div>
               <div class="image-container">
                   <img src="imagens/taide.jpeg" viewBox='0 0 600 400' %3E%3Crect fill='%23c0ac9c' width='600' height='400' x='300' y='200' text-anchor='middle' dominant-baseline='middle' fill='white' font-size='24' font-family='serif' %3ENosso Fundador%3C/text%3E%3C/svg%3E" alt="Nosso fundador no jardim">
@@ -305,7 +305,7 @@
               </div>
           </div>
 
-          <div class="story-grid">
+          <div class="story-grid" data-aos="fade-left" data-aos-duration="1500">
               <div class="image-container">
                   <img src="imagens/quemsomos.png" viewBox='0 0 600 400' %3E%3Crect fill='%233bdb36' width='600' height='400' x='300' y='200' text-anchor='middle' dominant-baseline='middle' fill='white' font-size='24' font-family='serif' %3ENosso Viveiro%3C/text%3E%3C/svg%3E" alt="Nosso viveiro de plantas">
                   <div class="image-overlay">

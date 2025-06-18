@@ -514,7 +514,8 @@
 
              <!-- Contact Info -->
              <section class="contact-info">
-                 <div class="info-card">
+                 <div class="info-card" data-aos="fade-up"
+                     data-aos-duration="1000">
                      <h3>
                          <span class="icon">📍</span>
                          Viveiro do Taide
@@ -527,7 +528,8 @@
                      </div>
                  </div>
 
-                 <div class="info-card">
+                 <div class="info-card" data-aos="fade-up"
+                     data-aos-duration="2000">
                      <h3>
                          <span class="icon">🕒</span>
                          Horário de Funcionamento
@@ -546,7 +548,8 @@
                      </div>
                  </div>
 
-                 <div class="info-card">
+                 <div class="info-card" data-aos="fade-up"
+                     data-aos-duration="3000">
                      <h3>
                          <span class="icon">🌿</span>
                          Especialidades

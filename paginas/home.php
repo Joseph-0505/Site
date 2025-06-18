@@ -218,21 +218,21 @@
 
         <div class="location-content">
             <div class="location-info">
-                <div class="info-item" onclick="openMap()">
+                <div class="info-item" data-aos="fade-down" data-aos-duration="1000" onclick="openMap()">
                     <div class="info-content">
                         <h4>📍 Endereço</h4>
                         <p>Rua Principal<br>Vila Rural Alto Alegre, Juranda-PR<br>CEP: 87.355-000</p>
                     </div>
                 </div>
 
-                <div class="info-item" onclick="callPhone()">
+                <div class="info-item" data-aos="fade-down" data-aos-duration="800" onclick="callPhone()">
                     <div class="info-content">
                         <h4>📞 Telefone</h4>
                         <p>WhatsApp: (44) 99801-4519</p>
                     </div>
                 </div>
 
-                <div class="info-item">
+                <div class="info-item" data-aos="fade-down" data-aos-duration="700">
                     <div class="info-content">
                         <h4>🕒 Horário de Funcionamento</h4>
                         <p>Segunda a Sexta: 7h às 18h<br>Sábado e Domingo: 7h às 18h</p>
